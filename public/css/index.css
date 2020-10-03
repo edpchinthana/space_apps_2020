@@ -1,8 +1,14 @@
 body{
-    background-image: url("/public/res/forest.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    background-color: rgb(233, 233, 233)!important;
+    margin-top: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    border-radius: 5px;
 }
 
 #custom-button{
@@ -20,7 +26,7 @@ body{
 }
 #brand-name{
     font-family: 'Bangers', cursive;
-    font-size: 22px;
+    font-size: 28px;
     color: green;
 }
 
@@ -31,16 +37,25 @@ body{
 #main-container{
     background-color: rgba(194, 194, 194, 0);
     padding: 20px 0px 0px 0px;
+    background-image: url("/public/res/forest.jpg");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 #container-1{
-    background-color: white;
-    margin: 20px 0px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
     padding: 10px;
 }
 
 #container-2{
     background-color: white;
-    margin: 20px 0px 20px 0px;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#container-3{
+    background-color: white;
     padding: 10px;
 }
