@@ -1,0 +1,46 @@
+body{
+    background-image: url("/public/res/forest.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#custom-button{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+    color: green;
+    transition: all 0.3s ease;
+}
+
+#custom-button:hover{
+    background-color: green;
+    color: white;
+}
+#brand-name{
+    font-family: 'Bangers', cursive;
+    font-size: 22px;
+    color: green;
+}
+
+#navigation{
+    background-color: rgb(255, 255, 255);
+}
+
+#main-container{
+    background-color: rgba(194, 194, 194, 0);
+    padding: 20px 0px 0px 0px;
+}
+
+#container-1{
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+#container-2{
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
