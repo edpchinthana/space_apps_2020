@@ -98,3 +98,28 @@ img{
     line-height: 10px;
     font-family: 'Bangers', cursive;
 }
+
+#media-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#media-description{
+    word-wrap: break-word;
+    color: rgb(109, 106, 106);
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px;
+}
+.custom-icon-container{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+.custom-icon{
+    padding: 5px!important;
+}
