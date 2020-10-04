@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(233, 233, 233)!important;
+    margin-top: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    border-radius: 5px;
+}
+
+#custom-button{
+    background-color: white;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+    color: green;
+    transition: all 0.3s ease;
+}
+
+#custom-button:hover{
+    background-color: green;
+    color: white;
+}
+#brand-name{
+    font-family: 'Bangers', cursive;
+    font-size: 28px;
+    color: green;
+}
+
+#navigation{
+    background-color: rgb(255, 255, 255);
+}
+
+#main-container{
+    background-color: rgba(194, 194, 194, 0);
+    padding: 20px 0px 0px 0px;
+    background-image: url("../res/forest.jpg");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#container-1{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#container-2{
+    background-color: white;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#container-3{
+    background-color: white;
+    padding: 10px;
+}
+
+#card{
+    width: 120px;
+    text-align: center;
+    border: 0px solid green;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px green;
+    margin: 0px 5px 0px 5px;
+}
+
+#card-header{
+    word-wrap: break-word;
+    font-size: 14px;
+    text-align: center;
+    color: green;
+    line-height: 0px!important;
+    height: 20px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+#card-body{
+    font-size: 40px;
+    color: red;
+    line-height: 30px;
+    font-weight: bolder;
+    letter-spacing: 0px;vertical-align: middle;
+
+}
+
+#card-footer{
+    word-wrap: break-word;
+    font-size: 12px;
+    text-align: center;
+    color: green;
+    line-height: 10px;
+    font-family: 'Bangers', cursive;
+}
+
+#media-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#media-description{
+    word-wrap: break-word;
+    color: rgb(109, 106, 106);
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px;
+}
+.custom-icon-container{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+.custom-icon{
+    padding: 5px!important;
+}
